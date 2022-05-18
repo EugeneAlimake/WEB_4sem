@@ -1,0 +1,40 @@
+input {
+  display: block;
+}
+.password{
+/*background: #fff;*/
+  width: 160px;
+  height: 5px;
+  margin: 2px;
+  border: 1px solid #000;
+}
+.password1 {
+  background: rgb(142, 213, 113);
+  height: 100%;
+}
+li {
+  list-style: none;
+  margin-left: -40px;
+}
+li:hover {
+  background: rgb(235, 233, 233);
+}
+ul input[type="radio"] {
+  display: none;
+}
+ul {
+  border: 1px solid;
+  width: 152px;
+  margin-top: 3px;
+}
+img {
+  height: 10px;
+  width: 20px;
+  margin-bottom: -3px
+}
+li img {
+  margin: 0px 3px;
+}
+.numberField img, .numberField input{
+  display: inline;
+}
