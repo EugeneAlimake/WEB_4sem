@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.one_good {
+display: flex;
+margin: 30px 100px;
+padding: 0;
+}
+.one_good img {
+  height: 200px;
+  margin-right: 10px;
+}
+.text {
+  margin: 0;
+  padding: 0;
+}
+.sorts {
+  margin: 20px 100px;
+  display: inline-block;
+}
+.sorts button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px;
+  transition: all 0.3s
+}
+.sorts button:hover {
+  cursor: pointer;
+  background-color: #008CBA
+}
+.discount h2 {
+  display: inline-block;
+  width: 50px;
+  height: 40px;
+  background-color: rgb(245, 58, 58);
+  text-align: center;
+}
+.discount h2 + h2 {
+  margin: 7px;
+}
+.discount button {
+  background-color: #faa403; 
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 7px;
+  transition: all 0.3s
+}
+.discount button[disabled] {
+background-color: #fcce79;  
+} 
+.discount button[disabled]:hover {
+background-color: #fcce79;
+color: white;
+cursor: default;
+} 
+.discount button:hover {
+  cursor: pointer;
+  background-color: #faf60e;
+  color: #000
+}
+.prices {
+  display: flex;
+}
+.prices h3 {
+  color: rgb(83, 83, 83);
+  margin-left: 10px;
+  text-decoration: line-through;
+}
+form {
+  margin: 10px;
+}
+form input {
+  display: block;
+}
+
+#portal {
+  position: relative;
+  z-index: 999;
+}
+.overlay {
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal {
+  height: 300px;
+  width: 600px;
+  border-radius: 20px;
+  background: #fff;
+  padding: 20px;
+}
+.modal button {
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+.modal button:hover {
+  cursor: pointer;
+}
+.to_order {
+  background-color: #f72525; 
+}
+.to_order:hover {
+  background-color: #c20606;
+}
+.to_catalog {
+  background-color: #3966fa; 
+}
+.to_catalog:hover {
+  background-color: #3015c5;
+}
+.progress_bar_bg{
+  background: #fff;
+  width: 160px;
+  height: 5px;
+  margin: 3px;
+  border: 1px solid #000;
+}
+.progress_bar {
+  background: rgb(180, 9, 9);
+  height: 100%;
+  margin: 0;
+}
+.sign_in input {
+  display: block
+}
