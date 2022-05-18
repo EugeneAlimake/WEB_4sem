@@ -1,0 +1,27 @@
+td,th,table {
+    border:none;
+    border-collapse: collapse;
+
+}
+.black {
+height: 50px;
+width: 50px;
+    background-color: lightsalmon;
+    border: none;
+    border-collapse: collapse;
+    border-spacing:0px ;
+}
+.white {
+    height: 50px;
+    width: 50px;
+    background-color: peachpuff;
+    border: none;
+    border-collapse: collapse;
+    border-spacing:0px ;
+}
+.notations
+{
+    height: 20px;
+    width: 50px;
+
+}
