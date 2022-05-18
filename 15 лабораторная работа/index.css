@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 3px ;
+}
+.container {
+  margin: 30px 100px;
+  padding: 0;  
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(110, 110, 180);
+  color: white;
+}
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.one_good {
+  display: flex;
+  margin: 30px 0px;
+}
+.one_good img {
+  height: 200px;
+  margin-right: 10px;
+}
+.text {
+  margin: 0;
+  padding: 0;
+}
+.sorts {
+  margin: 20px 0px;
+  display: inline-block;
+}
+.sorts button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition: all 0.3s;
+  margin: 0 20px 0 0;
+}
+.sorts button:hover {
+  cursor: pointer;
+  background-color: #008cba;
+}
+.discount h2 {
+  display: inline-block;
+  width: 50px;
+  height: 40px;
+  background-color: rgb(245, 58, 58);
+  text-align: center;
+}
+.discount h2 + h2 {
+  margin: 7px;
+}
+.discount button, .empty button, form button, .sign_in button {
+  background-color: #faa403;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 7px;
+  transition: all 0.3s;
+}
+.discount button[disabled] {
+  background-color: #fcce79;
+}
+.discount button[disabled]:hover {
+  background-color: #fcce79;
+  color: white;
+  cursor: default;
+}
+.discount button:hover, .empty button:hover, form button:hover, .sign_in button:hover {
+  cursor: pointer;
+  background-color: #faf60e;
+  color: #000;
+}
+.prices {
+  display: flex;
+}
+.prices h3 {
+  color: rgb(83, 83, 83);
+  margin-left: 10px;
+  text-decoration: line-through;
+}
+form {
+  margin: 10px;
+}
+form input {
+  display: block;
+}
+#portal {
+  position: relative;
+  z-index: 999;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal {
+  height: 300px;
+  width: 600px;
+  border-radius: 20px;
+  background: #fff;
+  padding: 20px;
+}
+.modal button, .good_in_cart button, .next, .prev {
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+button:hover {
+  cursor: pointer;
+}
+.to_order, .good_in_cart button, .next {
+  background-color: #f72525;
+}
+.to_order:hover, .good_in_cart button:hover, .next:hover {
+  background-color: #c20606;
+}
+.to_catalog, .prev {
+  background-color: #3966fa;
+}
+.to_catalog:hover, .prev:hover {
+  background-color: #3015c5;
+}
+.progress_bar_bg {
+  background: #fff;
+  width: 200px;
+  height: 7px;
+  margin: 3px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+.progress_bar {
+  background: rgb(26, 50, 102);
+  height: 100%;
+  margin: 0;
+}
+.sign_in input {
+  display: block;
+}
+.signUpIn li {
+  height: 50px;
+  width: 250px;
+  color: #fff;
+  background: rgb(53, 18, 119);
+  text-decoration: none;
+  margin: 10px;
+  text-align: center;
+}
+.search, .signUpIn, .empty h1{
+  display: flex;
+  justify-content: center;
+}
+.search label{
+  margin: 5px;
+}
+
+
